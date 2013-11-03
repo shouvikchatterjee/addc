@@ -1,5 +1,5 @@
-Automated Database Deployment Console (ADDC)
-====
+##Automated Database Deployment Console (ADDC)##
+
 
 
 This small interactive program simplifies the MySql database setup task seamlessly. The best part is that it can also be run via  continuous integration servers like Jenkins, TeamCity etc.
