@@ -1,5 +1,5 @@
 #!/bin/bash
-#@author Shouvik Chatterjee for Monsoon Consulting
+#@author Shouvik Chatterjee
 #@desc Utility to create database, exports from existing database and imports to new db. Create users, assigns users to database.
 #@usage sudo sh PATH/TO/script.sh -a myapplication -s 'PATH/TO/database.sql' -p abc123
 
@@ -34,7 +34,7 @@ do
     h)
 	echo ""
 	echo "~~~~~Welcome to the $SCRIPTNAME Help~~~~~"
-	echo "### Copyright (c) 2012 By Shouvik Chatterjee for Monsoon Consulting ###"
+	echo "### Copyright (c) 2012 By Shouvik Chatterjee ###"
 	echo ""
 	echo "[-a] Application name. The db will be created with this name."
 	echo "[-s] Sql source file with path. Used when creating a fresh database. Does not work with [-r]."
