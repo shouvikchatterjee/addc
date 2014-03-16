@@ -22,7 +22,7 @@ Supported flags:
     [-p] Password of the new database. Leaving blank will generate the default password.
     [-h] Displays the help
 
-![Screenshot](http://shouvik.net/images/addc/01.png)
+![Screenshot](http://shouvik.net/images/addc/01-welcome.png)
 
 To see this in action, we will create a new database, named magento and import an SQL file (
 magento_db.sql) to it. The SQL file should contain the db schema and may contain data. Skipping the -s flag will create an empty database. Enter the following command:
